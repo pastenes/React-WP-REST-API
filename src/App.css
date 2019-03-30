@@ -1,4 +1,22 @@
+:root {
+    --shadow: #2b353a;
+    --highlight: #b1cbd4;
+    --light: #fff;
+}
 body {
-    background: #2b353a;
-    color: #b1cbd4;
+    background: var(--shadow);
+    color: var(--highlight);
+}
+img {
+    max-width: 100%;
+}
+.post {
+    border-bottom: 1px solid var(--highlight);
+}
+.post h2 {
+    margin-bottom: 0;
+}
+.post a {
+    color: var(--light);
+    text-decoration: none;
 }

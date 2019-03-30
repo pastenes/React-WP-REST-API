@@ -21,7 +21,6 @@ export class Cars extends Component {
     }
 
     render() {
-        console.log(this.state);
         const { cars, isLoaded } = this.state;
         if (isLoaded) {
             return (
